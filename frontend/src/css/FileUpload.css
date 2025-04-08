@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .file-input {
+    margin-bottom: 12px;
+  }
+  
+  .upload-button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .upload-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .summary-textarea {
+    width: 100%;
+    height: 250px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+  }
