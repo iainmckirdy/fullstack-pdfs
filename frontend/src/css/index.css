@@ -1,4 +1,8 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
 body{
     /* background-image: linear-gradient(to right, white, black); */
     background-color: grey;
+    margin: 0px;
 }

@@ -39,9 +39,10 @@
   }
   
   .summary-textarea {
+    box-sizing: border-box;
     width: 100%;
     height: 250px;
-    padding: 12px;
+    padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
