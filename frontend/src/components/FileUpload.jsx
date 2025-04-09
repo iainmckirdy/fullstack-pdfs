@@ -14,15 +14,16 @@ const FileUpload = () => {
     if (!file) return;
     setLoading(true);
     const formData = new FormData();
-    formData.append("pdf", file);
+    formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:8000/upload", {
+      const response = await fetch("http://localhost:8000/summarise/", {
         method: "POST",
         body: formData,
       });
 
       const data = await response.json();
+      console.log(data)
       setSummary(data.summary);
     } catch (error) {
       console.error("Error uploading file:", error);
