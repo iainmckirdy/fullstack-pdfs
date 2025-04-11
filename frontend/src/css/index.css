@@ -3,9 +3,11 @@
 }
 body{
     background-image: linear-gradient(to right bottom, white, black);
-    margin: 0px;
-    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 html, body {
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
