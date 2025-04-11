@@ -2,7 +2,10 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    /* background-image: linear-gradient(to right, white, black); */
-    background-color: grey;
+    background-image: linear-gradient(to right bottom, white, black);
     margin: 0px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
 }
