@@ -1,5 +1,0 @@
-langchain==0.3.10
-langchain_community==0.3.10
-langchain_ollama==0.2.1
-langchain_openai==0.2.11
-python-dotenv==1.0.1

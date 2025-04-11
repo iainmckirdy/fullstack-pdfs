@@ -24,8 +24,10 @@ async def summarise_endpoint(file: UploadFile = File(...), use_local: bool = Fal
 
     try:
         summary = summarise_pdf(tmp_path, use_local=use_local)
-        os.remove(tmp_path)
         return {"summary": summary}
+    
     except Exception as e:
-        os.remove(tmp_path)
         return {"error": str(e)} 
+    
+    finally:
+        os.remove(tmp_path)
